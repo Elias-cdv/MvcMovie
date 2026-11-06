@@ -31,7 +31,7 @@ public static class SeedData
                 new Movie
                 {
                     Title = "The Lord of the Rings",
-                    ReleaseDate = DateTime.Parse("2001-19-12"),
+                    ReleaseDate = DateTime.Parse("2001-12-19"),
                     Genre = "Romantic Comedy",
                     Rating = "R",
                     Price = 7.99M
