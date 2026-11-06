@@ -22,6 +22,30 @@ public static class SeedData
             context.Movie.AddRange(
                 new Movie
                 {
+                    Title = "Interestellar",
+                    ReleaseDate = DateTime.Parse("2024-11-07"),
+                    Genre = "Sci-Fi",
+                    Rating = "PG-13",
+                    Price = 12.99M
+                },                
+                new Movie
+                {
+                    Title = "The Lord of the Rings",
+                    ReleaseDate = DateTime.Parse("2001-19-12"),
+                    Genre = "Romantic Comedy",
+                    Rating = "R",
+                    Price = 7.99M
+                },
+                new Movie
+                {
+                    Title = "The Dark Knight",
+                    ReleaseDate = DateTime.Parse("2008-07-18"),
+                    Genre = "Action",
+                    Rating = "PG-13",
+                    Price = 10.99M
+                },
+                new Movie
+                {
                     Title = "When Harry Met Sally",
                     ReleaseDate = DateTime.Parse("1989-2-12"),
                     Genre = "Romantic Comedy",
